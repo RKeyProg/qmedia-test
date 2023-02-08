@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Qmedia - Radkevich</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="application">
+        <div class="container">
+          <div class="application__info">
+            <h1 class="application__title">
+              Отправить заявку на участие в семинаре
+            </h1>
+            <div class="application__subtitle">
+              <div>Организаторы свяжутся с вами для подтверждения записи</div>
+              <div>Участие в семинаре <b>бесплатное</b></div>
+            </div>
+          </div>
+          <form action="" class="form">
+            <div class="form__row">
+              <div class="form__row-title">Ваше имя:</div>
+              <input
+                type="text"
+                name="name"
+                placeholder="Иванов Алексей"
+                class="form__input"
+              />
+            </div>
+            <div class="form__row">
+              <div class="form__row-title">Контактный email:</div>
+              <input
+                type="text"
+                name="name"
+                placeholder="example@mail.ru"
+                class="form__input"
+              />
+            </div>
+            <div class="form__row">
+              <div class="form__row-title">Интересующий семинар:</div>
+              <div class="form__select">
+                <select name="seminar" class="form__input">
+                  <option value="">Выбрать</option>
+                  <option value="web">Web</option>
+                  <option value="design">Design</option>
+                  <option value="endlish">English</option>
+                </select>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__submit-section">
+                <div class="form__note">
+                  <div>Все поля обязательны для заполнения</div>
+                  <div>
+                    Отправляя заявку, вы соглашаетесьс договором публичной
+                    оферты и политикой обработки данных
+                  </div>
+                </div>
+                <button type="submit" class="btn">Отправить</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
